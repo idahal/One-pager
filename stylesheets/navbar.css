@@ -1,0 +1,22 @@
+.navbar {
+  height: 10vh;
+  background-color: #272727;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  }
+
+.navbar a {
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 300;
+  }
