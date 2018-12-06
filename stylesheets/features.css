@@ -1,0 +1,57 @@
+.features {
+  height: 100vh;
+  background-color: #F2F2F2;
+  display: flex;
+  flex-direction: column;
+}
+
+.third-page {
+  height: 20vh;
+}
+
+.third-page h3 {
+  font-weight: 200;
+  font-size: 72px;
+  color: #000000;
+  text-align: center;
+}
+
+.image-features {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.image-features img {
+  width: 23%;
+  height: 100%;
+  background-color: black;
+}
+
+.text-boxes {
+  height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text-boxes text1, text2, text3 {
+  width: 20%;
+  height: 100%;
+  }
+
+  .text-boxes h3 {
+    font-size: 42px;
+    font-weight: 200;
+    color: #000000;
+    margin-left: 1em;
+  }
+
+  .text-boxes p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #000000;
+    text-align: left;
+    margin-left: 2em;
+  }
