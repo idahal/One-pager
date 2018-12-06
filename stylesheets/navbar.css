@@ -13,19 +13,27 @@
   align-items: center;
   }
 
+  .navbar-left {
+  margin-left: 15%;
+  display: flex;
+  }
   .navbar-left a {
-  margin-left: 3em;
+    margin-left: 20%;
   }
 
+  .navbar-right {
+  margin-right: 15%;
+  display: flex;
+  }
   .navbar-right a {
-  margin-right: 3em;
+    margin-right: 20%;
   }
 
 .navbar a {
   color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 300;
   }
 
