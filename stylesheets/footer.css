@@ -5,6 +5,7 @@
 }
 
 form {
+  height: 70%;
   float: right;
   margin: 5% 5% 0% 0%;
 }
@@ -31,4 +32,15 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #000000;
   color: #FFFFFF;
+
+  }
+
+  .hr-footer {
+    height: 30%;
+  }
+
+  hr {
+    color: white;
+    width: 80%;
+    margin: auto;
   }
