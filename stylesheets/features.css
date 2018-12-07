@@ -17,17 +17,9 @@
 }
 
 .image-features {
-  height: 60vh;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.image-features img {
-  width: 23%;
-  height: 100%;
-  background-color: black;
-}
+  height: 50vh;
+  width: 100%;
+  }
 
 .text-boxes {
   height: 20vh;
@@ -36,7 +28,7 @@
   justify-content: space-around;
 }
 
-.text-boxes text1, text2, text3 {
+.text1, .text2, .text3 {
   width: 20%;
   height: 100%;
   }
@@ -45,13 +37,10 @@
     font-size: 42px;
     font-weight: 200;
     color: #000000;
-    margin-left: 1em;
-  }
+    }
 
   .text-boxes p {
     font-size: 20px;
     font-weight: 300;
     color: #000000;
-    text-align: left;
-    margin-left: 2em;
-  }
+      }
