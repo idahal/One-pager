@@ -1,8 +1,11 @@
 .first-page {
   height: 100vh;
+  width: inherit;
   background-image: url("../image/firstpage.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  display: flex;
+  justify-content: center;
     }
 
   .title {
@@ -11,4 +14,16 @@
       font-size: 64px;
       padding-top: 5%;
       text-align: center;
+       }
+
+       @media only screen and (max-width: 600px) {
+         .first-page {
+
+           }
+
+           .title {
+               padding-top: 15%;
+               text-align: center;
+                }
+
        }
