@@ -46,17 +46,20 @@
     color: #000000;
       }
 
-      @media only screen and (max-width: 600px) {
+
+
+
+
+      @media only screen and (max-width: 700px) {
         .features {
-          height: 100vh;
+          height: 200vh;
+          width: inherit;
+          background-color: #F2F2F2;
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
+          flex-wrap: wrap;
         }
 
-        .text-boxes {
-          display: flex;
-          flex-direction: column;
-          flex-wrap: nowrap;
-        }
+      
 
       }
