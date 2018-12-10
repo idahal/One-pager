@@ -22,17 +22,59 @@
   width: 100%;
   }
 
-.text-boxes {
+  .text-boxes {
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: flex-start;
+align-content: flex-start;
+align-items: flex-start;
+justify-content: space-around;
+}
+/* .text-boxes {
   height: 20vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+} */
+
+
+ .flex-items-default {
+    width: 300px;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
 }
 
-.text1, .text2, .text3 {
+ .text1 {
+    width: 300px;
+    /* height: 250px; */
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+
+ .text2 {
+    width: 300px;
+    /* height: 250px; */
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+
+ .text3 {
+    width: 300px;
+    /* height: 250px; */
+    flex-grow: <property unused>
+    flex-shrink: <property unused>
+    flex-basis: <property unused>
+}
+
+/* .text1, .text2, .text3 {
   width: 20%;
   height: 100%;
-  }
+  } */
 
   .text-boxes h3 {
     font-size: 42px;
@@ -51,15 +93,21 @@
 
 
       @media only screen and (max-width: 700px) {
+
         .features {
+          height: 250vh;
+          }
+
+          .text2, .text3 {
+            margin-top: 10%;
+          }
+        /* .features {
           height: 200vh;
           width: inherit;
           background-color: #F2F2F2;
           display: flex;
           flex-direction: row;
           flex-wrap: wrap;
-        }
-
-      
+        } */
 
       }
