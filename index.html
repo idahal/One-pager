@@ -126,15 +126,20 @@
 
 <div class="buy">
   <div class="white">
-    <img src="image\white.jpg" alt="white-machine">
+    <img id="theWhite"src="image\white.jpg" alt="white-machine">
+    <div class="mobile-button">
+      <button  type="button" class="switch1" onclick="switchColor()"></button>
+      <button  type="button" class="switch2" onclick="switchColor2()"></button>
+    </div>
     <div class="text-white">
-      <h3>White 399$</h3>
+      <h3 class="mobile-title">Price 399$</h3>
+      <h3 class="desktop-title">White 399$</h3>
       <p>The Barisieur is a premium alarm clock that eases you into your mods of brewed coffee or.</p>
     </div>
       <button type="button" class="buy-white">Buy</button>
   </div>
     <div class="black">
-      <img src="image\black.jpg" alt="white-machine">
+      <img id="theBlack" src="image\black.jpg" alt="black-machine">
       <div class="text-black">
         <h3>Black 399$</h3>
         <p>The Barisieur is a premium alarm clock that eases you into your mods of brewed coffee or.</p>

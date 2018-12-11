@@ -17,3 +17,11 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
+
+function switchColor() {
+    document.getElementById("theWhite").src = "image/black.jpg";
+}
+
+function switchColor2() {
+    document.getElementById("theWhite").src = "image/white.jpg";
+}
