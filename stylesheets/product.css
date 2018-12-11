@@ -45,7 +45,7 @@
   }
 
 .text-white, .text-black p {
-  font-size: 18px
+  font-size: 18px;
   text-align: center;
   font-weight: 300;
 }
@@ -107,7 +107,17 @@
         width: 100%;
         text-align: center;
         color: #FFFFFF;
+
+      }
+      .text-white, .text-black p {
+        font-size: 18px;
+        text-align: center;
         font-weight: 300;
+      }
+
+      .text-white h3, .text-black h3 {
+        font-weight: 200;
+        font-size: 32px;
       }
 
       .buy-black, .buy-white {
@@ -136,18 +146,23 @@
         }
 
       .switch1, .switch2 {
-        height: 20px;
-        width: 60px;
-        background-color: #000000;
-        color: #FFFFFF;
-        cursor: pointer;
-        border-radius: 50px 0px 0px 50px;
+
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
         border:none;
       }
 
       .switch2 {
-        border-radius: 0px 50px 50px 0px;
+        border-radius: 50%;
+        margin-left: 1.5em;
         background-color: #FFFFFF;
         color: #000000;
               }
+
+      .switch1 {
+        background-color: #000000;
+        color: #FFFFFF;
+        margin-right: 1.5em;
+      }
 }
